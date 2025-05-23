@@ -33,7 +33,7 @@ const Navbar = () => {
             }
         </button>
         {toggle && 
-            <div className={`flex flex-col p-6 bg-gradient-to-r from-slate-900 via-slate-800  to-slate-700 absolute ${!toggle ? 'top-[-300px]' : 'top-[70px]' } right-0 mx-4 my-2 min-w-[140px] rounded-xl `}>
+            <div className={`flex flex-col p-6 bg-gradient-to-r from-slate-900 via-slate-800  to-slate-700 absolute ${!toggle ? 'top-[-300px]' : 'top-[60px]' } right-0 mx-4 my-2 min-w-[140px] rounded-xl `}>
               <ul className="flex flex-col justify-end items-end">
                 {NavLinks.map((nav, index) => (
                   <li 
