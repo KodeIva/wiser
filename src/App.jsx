@@ -22,10 +22,10 @@ function App() {
           <li className="px-3"><a href="#client">Clients</a></li>
         </ul>
       </div>
-     </div>
-
-     
-
+     </div> 
+   
+   
+   
     </div>
     
   )
