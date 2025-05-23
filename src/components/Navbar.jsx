@@ -1,4 +1,6 @@
 import { NavLinks } from "../data/data"
+import { CiMenuFries } from "react-icons/ci";
+import { IoMdClose } from "react-icons/io";
 
 const Navbar = () => {
   return (
@@ -16,6 +18,11 @@ const Navbar = () => {
             </li>
          ))}    
       </ul>
+
+      <div className="sm:hidden flex justify-end items-center">
+        <span className="w-[28px] h-[30px]"><CiMenuFries className='text-white' /></span>
+        <span className="w-[28px] h-[30px]"><IoMdClose className='text-white' /></span>
+      </div>
     </nav>
   )
 }
