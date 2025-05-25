@@ -15,22 +15,28 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex md:flex-row flex-col justify-between items-center w-full">
-          <h1 className="flex-1 font-semibold md:text-[72px] text-[52px] text-white leadiing-[75px] mb-5">
+        <div className="flex md:flex-row flex-col justify-between md:items-center items-start w-full">
+          <h1 className=" font-semibold md:text-[72px] text-[52px] text-white leadiing-[75px]">
             The next <br />
             <span className="bg-gradient-to-r from-blue-600  via-blue-400  to-blue-200 text-transparent bg-clip-text" >
                 Generation
             </span> {" "} <br />
-            Payment Method 
+            
           </h1>
 
-          <div className="flex"> 
+          <div className="hidden md:block"> 
             <GetStartedButton/>
           </div>
         </div> 
-
+        
+        <h1 className="font-semibold md:text-[72px] text-[52px] text-white leadiing-[75px] mb-5">
+            Payment Method 
+        </h1>
         <p className="max-w-[500px] text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, ipsam error vero magni tempora, impedit natus? Culpa provident delectus voluptates rem asper.</p>
 
+        <div className="mt-6 md:hidden"> 
+            <GetStartedButton/>
+        </div>
       </div>
 
       <div className="flex-1 flex justify-center items-center w-[350px] md:w-[450px] md:h-[450px] ">
