@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa6";
-import { FcApproval } from "react-icons/fc";
 import { FaLocationArrow } from "react-icons/fa"
+import { BsFillPatchCheckFill } from "react-icons/bs";
 
 export const NavLinks = [
     {
@@ -48,7 +48,7 @@ export const features = [
     },
     {
      id: 2,
-     icon: FcApproval,
+     icon: BsFillPatchCheckFill,
      title: "100% Secured",
      text: 'Your security is our priority - we take proactive measures to protect your data and transactions.'
     },
