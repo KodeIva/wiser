@@ -22,7 +22,7 @@ const Business = () => {
       </div>
 
       {/* Right side */}
-      <div className="flex flex-col max-w-[480px] h-[500px] mt-[150px]">
+      <div className="flex flex-col max-w-[480px] h-[500px] mt-[30px]">
         {features.map((feature) => {
            const {id,icon: Icon,title,text} = feature
             return (
