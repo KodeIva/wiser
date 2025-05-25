@@ -1,6 +1,4 @@
-import { FaStar } from "react-icons/fa6";
-import { FcApproval } from "react-icons/fc";
-import { FaLocationArrow } from "react-icons/fa"
+
 
 const Business = () => {
   return (

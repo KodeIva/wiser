@@ -1,3 +1,7 @@
+import { FaStar } from "react-icons/fa6";
+import { FcApproval } from "react-icons/fc";
+import { FaLocationArrow } from "react-icons/fa"
+
 export const NavLinks = [
     {
      id: "home",
@@ -33,4 +37,25 @@ export const stats = [
      title: 'Transactions',
      count: '£520M+'
     },
+]
+
+export const features = [
+    {
+     id: 1,
+     icon: <FaStar/>,
+     title: 'Rewards',
+     text: 'Top credit cards combine powerful perks with valuable rewards and promotional offers.'
+    },
+    {
+     id: 2,
+     icon: <FcApproval/>,
+     title: "100% Secured",
+     text: 'Your security is our priority - we take proactive measures to protect your data and transactions.'
+    },
+    {
+     id: 3,
+     icon: <FaLocationArrow/>,
+     title: 'Balance Transfer',
+     text: 'Cut down on interest costs with a balance transfer credit card - and keep more of your money.'
+    }
 ]
