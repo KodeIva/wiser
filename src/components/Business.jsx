@@ -16,6 +16,9 @@ const Business = () => {
         <p className="mt-5 max-w-[470px] text-[#9b9b9a] text-lg leading-7">
             With the right credit card, you can improve your financial life by building credit, earning rewards. But with hundreds of options available, finding the right one can be overhelming.
         </p>
+        <button className="bg-gradient-to-r from-blue-600  via-blue-400  to-blue-200 mt-10 py-4 px-6 rounded-md font-medium transition-all transform hover:scale-105 hover:shadow-lg duration-700 ease-in-out">
+            Get Started
+        </button>
       </div>
       
     </section>
