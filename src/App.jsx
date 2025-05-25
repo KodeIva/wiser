@@ -1,3 +1,4 @@
+import Business from "./components/Business"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Stats from "./components/Stats"
@@ -17,6 +18,7 @@ function App() {
        <div className="xl:max-w-[1280px] w-full">
         <Hero/>
         <Stats />
+        <Business/>
        </div>
      </div>
    </div>  
