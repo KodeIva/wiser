@@ -10,7 +10,7 @@ const Billing = () => {
         <h2 className='font-semibold  xs:text-[48px] text-[40px] text-white w-full leading-10'>Easily control your <br className="sm:block hidden" /> billing & invoicing</h2>
         <p className='text-[#9b9b9a] max-w-[470px] mt-5 font-normal text-[18px] leading-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla eaque repellendus maxime quod consectetur sint architecto eligendi asperiores ab magnam, adipisci officiis? Hic iure consequatur adipisci. Aperiam exercitationem soluta recusandae placeat temporibus reprehenderit tempora distinctio, delectus ut nulla earum laborum inventore aliquid.</p>
       </div>
-    </section>
+    </section> 
   )
 }
 
