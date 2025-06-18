@@ -1,5 +1,6 @@
 import Billing from "./components/Billing"
 import Business from "./components/Business"
+import CardDeal from "./components/CardDeal"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Stats from "./components/Stats"
@@ -21,6 +22,7 @@ function App() {
         <Stats />
         <Business/>
         <Billing/>
+        <CardDeal/>
        </div>
      </div>
    </div>  
