@@ -2,7 +2,7 @@ import deal from '../assets/deal.jpg'
 
 const CardDeal = () => {
   return (
-    <section className='flex md:flex-row flex-col sm:py-16 py-16'>
+    <section className='flex lg:flex-row flex-col sm:py-16 py-16'>
       <div className='flex-1 flex flex-col justify-center items-center'>
        <h2 className='w-full font-semibold text-3xl text-white leading-10 '>Find the better card deal <br />
        in few easy steps.</h2>
@@ -12,7 +12,7 @@ const CardDeal = () => {
           Get Started
        </button>
       </div>
-      <div className="flex flex-1 justify-center items-center md:mr-10 mr-0 md:mt-0 mt-10 relative">
+      <div className="flex flex-1 justify-center items-center lg:mr-10 mr-0 lg:mt-0 mt-10 relative">
          <img src={deal} className='w-[100%] h-[100%]' alt="" />
       </div>
       
