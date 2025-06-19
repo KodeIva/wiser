@@ -4,6 +4,7 @@ import CardDeal from "./components/CardDeal"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Stats from "./components/Stats"
+import Testimonials from "./components/Testimonials"
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Business/>
         <Billing/>
         <CardDeal/>
+        <Testimonials/>
        </div>
      </div>
    </div>  
