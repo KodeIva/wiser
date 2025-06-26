@@ -66,14 +66,14 @@ export const feedback = [
         name: 'Mark Dowel',
         title: "General Manager",
         img: "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg",
-        comment: "Money is only a tool. It will take you wherever you wish, but will not replace you as a driver."
+        comment: "Wealth may open doord, but it's your direction that leads you through them."
     },
     {
         id: 2,
         name: 'Alex Klug',
         title: "Lead Developer",
         img: "https://cdn.pixabay.com/photo/2017/02/16/23/10/smile-2072907_1280.jpg",
-        comment: "Money is only a tool. It will take you wherever you wish, but will not replace you as a driver."
+        comment: "While money isn't everything, it oftem makes everything a little simpler. If you got it, you are one of the lucky ones"
     },
     {
         id: 3,
