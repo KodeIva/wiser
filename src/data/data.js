@@ -59,3 +59,29 @@ export const features = [
      text: 'Cut down on interest costs with a balance transfer credit card - and keep more of your money.'
     }
 ]
+
+export const feedback = [
+    {
+        id: 1,
+        name: 'Mark Dowel',
+        title: "General Manager",
+        img: "https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg",
+        comment: "Money is only a tool. It will take you wherever you wish, but will not replace you as a driver."
+    },
+    {
+        id: 2,
+        name: 'Alex Klug',
+        title: "Lead Developer",
+        img: "https://cdn.pixabay.com/photo/2017/02/16/23/10/smile-2072907_1280.jpg",
+        comment: "Money is only a tool. It will take you wherever you wish, but will not replace you as a driver."
+    },
+    {
+        id: 3,
+        name: 'Dodo Yong',
+        title: "Pedietrician",
+        img: "https://cdn.pixabay.com/photo/2016/05/30/00/32/short-hair-1424070_1280.jpg",
+        comment: "Money is only a tool. It will take you wherever you wish, but will not replace you as a driver."
+    },
+]
+
+
