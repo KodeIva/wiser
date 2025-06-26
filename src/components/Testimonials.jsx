@@ -1,4 +1,5 @@
 import React from 'react'
+import { feedback } from '../data/data'
 
 const Testimonials = () => {
   return (
@@ -13,21 +14,25 @@ const Testimonials = () => {
       </div>
 
       <div className="flex flex-wrap w-full justify-center sm:justify-center relative z-[1]">
-        <div className="flex flex-col justify-between px-10 py-12 rounded-3xl max-w-[370px] md:mr-10 ms:mt-5 mr-0 my-5 bg-transparent">
-                       
-        <p className='text-lg leading-8 text-white my-10'>Money is only a tool. It will take you wherever you wish, but will not replace you as a driver.</p>
+        {feedback.map(singleFeedback => {
+            const { id, img,name, title, comment } = singleFeedback
+           return (
+            <div key={id} className="flex flex-col justify-between px-10 py-12 rounded-3xl max-w-[370px] md:mr-10 ms:mt-5 mr-0 my-5 bg-transparent">      
+        <p className='text-lg leading-8 text-white my-10'>{comment}</p>
          <div className="flex flex-row">
             <img
-              className='w-16 h-14 rounded-full' 
-              src="https://cdn.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg" alt="" 
+              className='w-14 h-14 rounded-full' 
+              src={img} alt="" 
             />
             <div className="flex flex-col ml-4">
-                <h3 className='font-semibold text-xl leading-8'>John Doe</h3>
-                <h4 className='text-sm text-[#9b9b9a] leading-6 '>Founder & Leader</h4>
+                <h3 className='font-semibold text-xl leading-8'>{name}</h3>
+                <h4 className='text-sm text-[#9b9b9a] leading-6 '>{title}</h4>
                 
             </div>
          </div>
         </div>
+           )
+        })}
       </div>
 
     </section>
