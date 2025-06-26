@@ -1,5 +1,6 @@
 import React from 'react'
 import { feedback } from '../data/data'
+import { RiDoubleQuotesL } from "react-icons/ri";
 
 const Testimonials = () => {
   return (
@@ -15,24 +16,21 @@ const Testimonials = () => {
 
       <div className="flex flex-wrap w-full justify-center sm:justify-center relative z-[1]">
         {feedback.map(singleFeedback => {
-            const { id, img,name, title, comment } = singleFeedback
+         const { id, img,name, title, comment } = singleFeedback
            return (
-            <div key={id} className="flex flex-col justify-between px-10 py-12 rounded-3xl max-w-[370px] md:mr-10 ms:mt-5 mr-0 my-5 bg-transparent">      
-        <p className='text-lg leading-8 text-white my-10'>{comment}</p>
-         <div className="flex flex-row">
-            <img
-              className='w-14 h-14 rounded-full' 
-              src={img} alt="" 
-            />
-            <div className="flex flex-col ml-4">
-                <h3 className='font-semibold text-xl leading-8'>{name}</h3>
-                <h4 className='text-sm text-[#9b9b9a] leading-6 '>{title}</h4>
-                
-            </div>
-         </div>
-        </div>
-           )
-        })}
+            <div key={id} className="flex flex-col justify-between px-10 py-12 rounded-3xl max-w-[370px] md:mr-10 ms:mt-5 mr-0 my-5 bg-transparent hover:bg-slate-900 duration-500">      
+              <RiDoubleQuotesL className='text-blue-400 text-2xl'/>
+              <p className='text-lg leading-8 text-white my-10'>{comment}</p>
+              <div className="flex flex-row">
+                <img className='w-14 h-14 rounded-full' src={img} alt="person-img" />
+                <div className="flex flex-col ml-4">
+                  <h3 className='font-semibold text-xl leading-8'>{name}</h3>
+                  <h4 className='text-sm text-[#9b9b9a] leading-6 '>{title}</h4>       
+                </div>
+              </div>
+             </div>
+            )
+          })}
       </div>
 
     </section>
