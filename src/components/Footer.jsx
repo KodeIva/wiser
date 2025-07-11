@@ -1,6 +1,9 @@
 import { footerLinks } from "../data/data"
 
 const Footer = () => {
+ const date = new Date().getFullYear()
+ console.log(date);
+
   return (
     <section className="flex flex-col justify-center items-center w-full">
      <div className="flex justify-center w-full">
@@ -20,6 +23,16 @@ const Footer = () => {
         </ul>
         </div>
         <hr className="border-t border-t-[#9b9b9a] w-[100%] my-7"/>
+        <div>
+            <div>
+                <p className="text-[#9b9b9a]">
+                    {date}
+                    <span> Wiser</span>
+                    <span> All Rights Reserved</span>
+                </p>
+            </div>
+            
+        </div>
     </section>
   )
 }
