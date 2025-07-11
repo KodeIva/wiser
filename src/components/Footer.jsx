@@ -2,27 +2,22 @@ import { footerLinks } from "../data/data"
 
 const Footer = () => {
   return (
-    <section >
-     <div>
-        <ul className="flex flex-col justify-end items-start">
-         {footerLinks.map(footerLink => (
-                
-             <div key={footerLink.title} className="font-normal cursor-pointer text-[16px] text-white my-2 mr-10 ">
-                <h4>{footerLink.title}</h4>
-
+    <section className="flex flex-col justify-center items-center w-full">
+     <div className="flex justify-center w-full">
+        <ul className="flex flex-col sm:flex-row justify-end items-start">
+         {footerLinks.map(footerLink => (       
+             <div key={footerLink.title} className=" flex items-start flex-col m-1 px-10 lg:px-14  ">
+                <h4 className="font-medium text-lg text-white my-2">{footerLink.title}</h4>
                 <ul>
                   {footerLink.links.map(link => {
                     return (
-                        <li key={link.id}>{link.name}</li>
+                     <li className="cursor-pointer text-[#9b9b9a]" key={link.id}>{link.name}</li>
                     )
                   })}    
-                </ul>  
-
-              
-</div>
-                  
-                 ))}    
-              </ul>
+                </ul>               
+             </div>    
+          ))}    
+        </ul>
         </div>
     </section>
   )
