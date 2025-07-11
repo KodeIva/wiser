@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa6";
 import { FaLocationArrow } from "react-icons/fa"
-import { BsFillPatchCheckFill } from "react-icons/bs";
+import { BsFillPatchCheckFill, BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from "react-icons/bs";
 
 export const NavLinks = [
     {
@@ -84,4 +84,80 @@ export const feedback = [
     },
 ]
 
+export const socials = [
+    {
+        id: 1,
+        icon: BsInstagram,
+        link: "https://www.instagram.com/"
+    },
+    {
+        id: 2,
+        icon: BsTwitter,
+        link: "https://www.twitter.com/"
+    },
+    {
+        id: 3,
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/"
+    },
+    {
+        id: 4,
+        icon: BsYoutube,
+        link: "https://www.youtube.com"
+    }
+]
 
+
+export const footerLinks = [
+    {
+       title: "Useful Links", 
+       links: [
+        {
+            name: "Home",
+            link: "#home"
+        },{
+            name: "Features",
+            link: "#features"
+        },{
+            name: "Products",
+            link: "#features"
+        },{
+            name: "Clients",
+            link: "#clients"
+        }
+       ]
+    },{
+        title: "Community",
+        links: [
+             {
+                id: 1,
+                name: "Help Center",
+                link: "#home"
+             },{
+                id: 2,
+                name: "Blog",
+                link: "#home"
+             },{
+                id: 3,
+                name: "Newsletter",
+                link: "#home"
+             }
+        ]
+    },{
+        title: "Partners",
+        links: [
+            {
+                id: 1,
+                name: "Our Partners",
+                link: "#home"
+            },{
+                id: 2,
+                name: "Become a Partner",
+                link:"#home"
+            }
+          
+        ]
+    }
+    
+
+]
