@@ -19,6 +19,7 @@ const Footer = () => {
           ))}    
         </ul>
         </div>
+        <hr className="border-t border-t-[#9b9b9a] w-[100%] my-7"/>
     </section>
   )
 }
