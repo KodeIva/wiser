@@ -3,6 +3,7 @@ import Business from "./components/Business"
 import CardDeal from "./components/CardDeal"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import Register from "./components/Register"
 import Stats from "./components/Stats"
 import Testimonials from "./components/Testimonials"
 
@@ -25,6 +26,7 @@ function App() {
         <Billing/>
         <CardDeal/>
         <Testimonials/>
+        <Register/>
        </div>
      </div>
    </div>  
