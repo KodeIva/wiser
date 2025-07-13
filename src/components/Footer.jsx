@@ -14,7 +14,7 @@ const Footer = () => {
                 <ul>
                   {footerLink.links.map(link => {
                     return (
-                     <li className="cursor-pointer text-[#9b9b9a]" key={link.id}>{link.name}</li>
+                     <li className="cursor-pointer text-[#9b9b9a]  hover:text-blue-400 duration-700 " key={link.id}>{link.name}</li>
                     )
                   })}    
                 </ul>               
@@ -37,7 +37,7 @@ const Footer = () => {
                     const { link, id, icon: Icon } = social
                     return (
                        
-                            <li className="text-[#9b9b9a] mx-3 " key={id}>
+                            <li className="text-[#9b9b9a] hover:text-blue-400 duration-700   mx-3 " key={id}>
                                 <a href="`#${link}`" className="text-3xl lg:text-4xl"><Icon/></a>
                             </li>
                        
