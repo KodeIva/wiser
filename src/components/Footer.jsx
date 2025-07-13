@@ -13,8 +13,11 @@ const Footer = () => {
                 <h4 className="font-medium text-lg text-white my-2">{footerLink.title}</h4>
                 <ul>
                   {footerLink.links.map(link => {
+                    const{ url, id, name } = link
                     return (
-                     <li className="cursor-pointer text-[#9b9b9a]  hover:text-blue-400 duration-700 " key={link.id}>{link.name}</li>
+                     <li className="cursor-pointer text-[#9b9b9a]  hover:text-blue-400 duration-700 " key={link.id}>
+                       <a href={url}>{name}</a> 
+                    </li>
                     )
                   })}    
                 </ul>               

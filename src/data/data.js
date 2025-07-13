@@ -114,16 +114,16 @@ export const footerLinks = [
        links: [
         {
             name: "Home",
-            link: "#home"
+            url: "#home"
         },{
             name: "Features",
-            link: "#features"
+            url: "#features"
         },{
             name: "Products",
-            link: "#features"
+            url: "#features"
         },{
             name: "Clients",
-            link: "#clients"
+            url: "#clients"
         }
        ]
     },{
